@@ -26,6 +26,10 @@ This repository contains the code and resources for a Multioutput Convolutional 
    ```bash
    python src/train_pechay.py
 
-4. Test the model:
+4. Plot the Training and Validation Accuracy and Validation:
+   ```bash
+   python src/plots.py
+   
+5. Test the model:
    ```bash
    python src/test_pechay.py
