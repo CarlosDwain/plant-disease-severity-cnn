@@ -19,5 +19,13 @@ This repository contains the code and resources for a Multioutput Convolutional 
    git clone https://github.com/CarlosDwain/pechay-disease-cnn.git
    
 2. Install the dependencies:
-   '''bash
+   ```bash
    pip install -r requirement_pyqt5.txt
+
+3. Train the CNN model:
+   ```bash
+   python src/train_pechay.py
+
+4. Test the model:
+   ```bash
+   python src/test_pechay.py
