@@ -1,7 +1,7 @@
 # Multioutput CNN Model Training for Plant Disease and Severity Identification
 
 ## Overview
-This repository contains the code and resources for a Multioutput Convolutional Neural Network (CNN) designed for disease classification and severity estimation in hydroponically grown Pechay (Brassica rapa ssp. chinensis).
+This repository contains the code and resources for a Multioutput Convolutional Neural Network (CNN) designed for disease classification and severity estimation in hydroponically grown Pechay (Brassica rapa ssp. chinensis). You can also use any plant you want. 
 
 ## Project Structure
 - **/src**: Contains the source code for the CNN model.
