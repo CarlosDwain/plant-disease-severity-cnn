@@ -7,7 +7,6 @@ This repository contains the code and resources for a Multioutput Convolutional 
 - **/src**: Contains the source code for the CNN model.
 - **/data**: Placeholder for datasets used in training and testing.
 - **/docs**: Documentation related to the project.
-- **/models**: Save trained CNN models.
 - **/results**: Store evaluation metrics, graphs, and other results.
 
 ## Requirements
