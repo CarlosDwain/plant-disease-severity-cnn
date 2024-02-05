@@ -11,7 +11,7 @@ This repository contains the code and resources for a Multioutput Convolutional 
 
 ## Requirements
 - Python 3.x
-- Dependencies listed in `requirements.txt`
+- Dependencies listed in `requirement_pyqt5.txt`
 
 ## Usage
 1. Clone the repository:
