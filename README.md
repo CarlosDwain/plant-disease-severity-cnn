@@ -17,3 +17,7 @@ This repository contains the code and resources for a Multioutput Convolutional 
 1. Clone the repository:
    ```bash
    git clone https://github.com/CarlosDwain/pechay-disease-cnn.git
+   
+2. Install the dependencies:
+   '''bash
+   pip install -r requirement_pyqt5.txt
