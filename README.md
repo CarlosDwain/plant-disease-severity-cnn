@@ -17,7 +17,7 @@ A multioutput or multi-task learning is an approach where multiple tasks are per
 
 ## Requirements
 - A virtual environment (recommended)
-- Python 3.x
+- Python 3.x (I used 3.9.13)
 - Dependencies listed in `requirement_pyqt5.txt`
 
 ## Usage
