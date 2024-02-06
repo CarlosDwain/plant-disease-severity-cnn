@@ -11,17 +11,19 @@ The model training process involves two primary phases: transfer learning and cu
 
 ### Transfer Learning
 
-In this phase, a pre-trained model based on the InceptionV3 architecture and trained on the \emph{imagenet} dataset is utilized as the foundation. Leveraging pre-existing knowledge from a vast dataset like \emph{imagenet} allows for enhanced performance, particularly when the available dataset for the specific task is limited.
+In this phase, a pre-trained model based on the InceptionV3 architecture and trained on the imagenet dataset is utilized as the foundation. Leveraging pre-existing knowledge from a vast dataset like imagenet allows for enhanced performance, particularly when the available dataset for the specific task is limited.
 
 ### Custom Fully Connected Layer
 
-Following transfer learning, a custom fully connected layer is integrated into the model. This layer is manually designed to meet the specific requirements of the study, allowing for further customization and optimization.
+Following transfer learning, a custom fully connected layer is integrated into the model. This layer is manually designed to meet the specific requirements of the user, allowing for further customization and optimization.
 
 For a detailed overview of the model training workflow, refer to the figure below
 
 <p align="center">
    <img src = "resources/model training 2.jpg" alt="Logo">
 </p>
+
+Multioutput model training framework of the study. We adapted a pre-trained model trained on the imagenet dataset, froze the layers, and combined it with our custom fully connected layers that output (1) plant disease and (2) disease severity.
 
 ## Project Structure
 - **/src**: Contains the source code for the CNN model.
