@@ -5,8 +5,12 @@ This repository contains the code and resources for a Multioutput Convolutional 
 
 A multioutput or multi-task learning is an approach where multiple tasks are performed simultaneously. This is given that the tasks are closely related to one another. To implement a multioutput approach in our study, a CNN model shall be trained to output the plant disease and disease severity of Pechay with a single input image. The figure aboves illustrates the process of building the model.
 
-## Model Training Process
+## Table of Contents
 
+- [Model Training Process](#Model Training Process)
+
+## Model Training Process
+<a name="Model Training Process"></a>
 The model training process involves two primary phases: transfer learning and custom fully connected layer integration.
 
 ### Transfer Learning
@@ -26,17 +30,20 @@ For a detailed overview of the model training workflow, refer to the figure belo
 Multioutput model training framework. We adapted a pre-trained model trained on the imagenet dataset, froze the layers, and combined it with our custom fully connected layers that output (1) plant disease and (2) disease severity.
 
 ## Project Structure
+<a name="Project Structure"></a>
 - **/src**: Contains the source code for the CNN model.
 - **/data**: Placeholder for datasets used in training and testing.
 - **/docs**: Documentation related to the project.
 - **/results**: Store evaluation metrics, graphs, and other results.
 
 ## Requirements
+<a name="Requirements"></a>
 - A virtual environment (recommended)
 - Python 3.x (I used 3.9.13)
 - Dependencies listed in `requirement_pyqt5.txt`
 
 ## Usage
+<a name="Usage"></a>
 1. Clone the repository:
    ```bash
    git clone https://github.com/CarlosDwain/pechay-disease-cnn.git
