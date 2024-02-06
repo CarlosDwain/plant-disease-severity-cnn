@@ -3,11 +3,25 @@
 ## Overview
 This repository contains the code and resources for a Multioutput Convolutional Neural Network (CNN) designed for disease classification and severity estimation in hydroponically grown Pechay (Brassica rapa ssp. chinensis). You can also use any plant you want. 
 
+A multioutput or multi-task learning is an approach where multiple tasks are performed simultaneously. This is given that the tasks are closely related to one another. To implement a multioutput approach in our study, a CNN model shall be trained to output the plant disease and disease severity of Pechay with a single input image. The figure aboves illustrates the process of building the model.
+
+## Model Training Process
+
+The model training process involves two primary phases: transfer learning and custom fully connected layer integration.
+
+### Transfer Learning
+
+In this phase, a pre-trained model based on the InceptionV3 architecture and trained on the \emph{imagenet} dataset is utilized as the foundation. Leveraging pre-existing knowledge from a vast dataset like \emph{imagenet} allows for enhanced performance, particularly when the available dataset for the specific task is limited.
+
+### Custom Fully Connected Layer
+
+Following transfer learning, a custom fully connected layer is integrated into the model. This layer is manually designed to meet the specific requirements of the study, allowing for further customization and optimization.
+
+For a detailed overview of the model training workflow, refer to the figure below
+
 <p align="center">
    <img src = "resources/model training 2.jpg" alt="Logo">
 </p>
-
-A multioutput or multi-task learning is an approach where multiple tasks are performed simultaneously. This is given that the tasks are closely related to one another. To implement a multioutput approach in our study, a CNN model shall be trained to output the plant disease and disease severity of Pechay with a single input image. The figure aboves illustrates the process of building the model.
 
 ## Project Structure
 - **/src**: Contains the source code for the CNN model.
