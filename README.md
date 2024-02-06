@@ -12,8 +12,8 @@ A multioutput or multi-task learning is an approach where multiple tasks are per
 - [Requirements](#section3)
 - [Usage](#section4)
 
-## Model Training Process
 <a name="section1"></a>
+## Model Training Process
 The model training process involves two primary phases: transfer learning and custom fully connected layer integration.
 
 ### Transfer Learning
