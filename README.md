@@ -3,6 +3,10 @@
 ## Overview
 This repository contains the code and resources for a Multioutput Convolutional Neural Network (CNN) designed for disease classification and severity estimation in hydroponically grown Pechay (Brassica rapa ssp. chinensis). You can also use any plant you want. 
 
+<p align="center">
+   <img src = "resources/model training.jpg" alt="Logo">
+</p>
+
 ## Project Structure
 - **/src**: Contains the source code for the CNN model.
 - **/data**: Placeholder for datasets used in training and testing.
