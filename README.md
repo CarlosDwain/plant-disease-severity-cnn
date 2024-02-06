@@ -23,7 +23,7 @@ For a detailed overview of the model training workflow, refer to the figure belo
    <img src = "resources/model training 2.jpg" alt="Logo">
 </p>
 
-Multioutput model training framework of the study. We adapted a pre-trained model trained on the imagenet dataset, froze the layers, and combined it with our custom fully connected layers that output (1) plant disease and (2) disease severity.
+Multioutput model training framework. We adapted a pre-trained model trained on the imagenet dataset, froze the layers, and combined it with our custom fully connected layers that output (1) plant disease and (2) disease severity.
 
 ## Project Structure
 - **/src**: Contains the source code for the CNN model.
