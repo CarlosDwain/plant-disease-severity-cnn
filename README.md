@@ -10,6 +10,7 @@ This repository contains the code and resources for a Multioutput Convolutional 
 - **/results**: Store evaluation metrics, graphs, and other results.
 
 ## Requirements
+- A virtual environment (recommended)
 - Python 3.x
 - Dependencies listed in `requirement_pyqt5.txt`
 
