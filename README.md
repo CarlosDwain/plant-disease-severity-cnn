@@ -49,7 +49,7 @@ Multioutput model training framework. We adapted a pre-trained model trained on 
    ```bash
    python src/train_pechay.py
 
-4. Plot the Training and Validation Accuracy and Validation:
+4. Plot the Training and Validation Accuracy and Loss:
    ```bash
    python src/plots.py
    
