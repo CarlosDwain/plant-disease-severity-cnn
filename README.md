@@ -1,7 +1,7 @@
 # Multioutput CNN Model Training for Plant Disease and Severity Identification
 
 ## Overview
-This repository contains the code and resources for a Multioutput Convolutional Neural Network (CNN) designed for disease classification and severity estimation in hydroponically grown Pechay (Brassica rapa ssp. chinensis). You can also use any plant you want. 
+This repository contains the code and resources for a Multioutput Convolutional Neural Network (CNN) designed for disease classification and severity estimation in hydroponically grown Pechay (Brassica rapa ssp. chinensis). You can also use any plant you want, in my use case I used Pechay. 
 
 A multioutput or multi-task learning is an approach where multiple tasks are performed simultaneously. This is given that the tasks are closely related to one another. To implement a multioutput approach in our study, a CNN model shall be trained to output the plant disease and disease severity of Pechay with a single input image. The figure aboves illustrates the process of building the model.
 
